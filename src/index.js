@@ -7,6 +7,7 @@ import React, {
 } from 'react';
 import PropTypes from 'prop-types';
 import createReactClass from 'create-react-class';
+import {ViewPropTypes} from 'deprecated-react-native-prop-types'
 
 import {
   PanResponder,
@@ -14,7 +15,6 @@ import {
   StyleSheet,
   Text,
   View,
-  ViewPropTypes,
 } from 'react-native';
 
 const SwipeoutBtn = createReactClass({
